@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;1000&display=swap');
+
+:root{
+  --clr_prim: rgba(4, 128, 164, 1);
+  --clr_white: rgba(245, 245, 245, 1);
+  --clr_black: rgba(67, 67, 67, 1) ;
+  --clr_dark:rgba(35, 35, 35, 1);
+
+  --yellow:rgba(243, 158, 29, 0.7);
+  --dark:rgba(52, 52, 54, 1);
+
+  --fs_s: 0.875rem;
+  --fs_n: 1.25rem;
+  --fs_l: 1.5rem;
+  --fs_xl: 2.188rem;
+  --fs_xxl: 2.5rem;
+
+  --fw_regular: 400;
+  --fw_bold: 600;
+  --fw_extraBold: 800;
+}
+
+h1{
+  font-size: var(--fs_xl);
+  font-weight: var(--fw_extraBold);
+  color: var(--clr_dark);
+  letter-spacing: 2px;
+}
+
+
+
+/* ******************************************************* */
+/* ******************* CSS Reset ************************* */
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+html,
+body{
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+body{
+  line-height: 1.5;
+  background: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+input, button, textarea, select{
+  font: inherit;
+}
+
+button{
+  border: none;
+}
+
+input:focus, button:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+a{
+  text-decoration: none;
+}
+
+p,span,h1,h2,h3,h4,h5,h6,a{
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+/* *********************CSS Reset END********************* */
+/* ******************************************************* */
+
+body{
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+section{
+  width: 100vw;
+  padding: 0 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container{
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding:0.625rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.625rem;
+}
+
+.row{
+  width: 100%;
+  display: inline-flex;
+  gap: .625rem;
+}
+
+.hero_parts{
+  display: inline-flex;
+  gap: .625rem;
+  justify-content: space-between;
+}
+
+.col{
+  width: fit-content;
+}
+
+.big_img_frame{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container{
+    max-width: 60rem;
+  }
+}
+
+
+

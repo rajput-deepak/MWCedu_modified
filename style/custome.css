@@ -20,11 +20,33 @@
   --fw_extraBold: 800;
 }
 
+@media screen and (max-width: 720px) {
+  :root{
+    --clr_prim: rgba(4, 128, 164, 1);
+    --clr_white: rgba(245, 245, 245, 1);
+    --clr_black: rgba(67, 67, 67, 1) ;
+    --clr_dark:rgba(35, 35, 35, 1);
+  
+    --yellow:rgba(243, 158, 29, 0.7);
+    --dark:rgba(52, 52, 54, 1);
+  
+    --fs_s: 0.875rem;
+    --fs_n: 1.25rem;
+    --fs_l: 1.5rem;
+    --fs_xl: 2rem;
+    --fs_xxl: 2.5rem;
+  
+    --fw_regular: 400;
+    --fw_bold: 600;
+    --fw_extraBold: 800;
+  }
+}
+
 h1{
   font-size: var(--fs_xl);
   font-weight: var(--fw_extraBold);
   color: var(--clr_dark);
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 
@@ -146,12 +168,18 @@ section{
  background: #eee;
 }
 
+.bg_prim{
+  background: var(--clr_prim);
+ }
+
 
 @media screen and (max-width: 1200px) {
   .container{
     max-width: 60rem;
   }
 }
+
+
 
 
 

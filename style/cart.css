@@ -1,0 +1,110 @@
+#cart_head h1, #cart_head p{
+  color: #eee;
+  text-transform: capitalize;
+}
+
+.cart_total{
+  font-size: var(--fs_l);
+}
+
+.cart_total span:nth-child(1){
+  font-weight: 800;
+}
+
+.checkout{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkout > form{
+  padding: 0;
+  height: 40px;
+  width: fit-content;
+  background: #eee !important;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.checkout > form > input{
+  border: none;
+  margin: 0;
+  height: 40px;
+}
+
+.checkout > form > input:nth-child(1){
+  padding: 0 10px;
+  background: none;
+  width: 200px;
+}
+
+.checkout > form > input:nth-child(2){
+  background: rgba(4, 128, 164, .6);
+  color: #eee;
+  padding: auto 10px;
+  cursor: pointer;
+}
+
+a.checkout_btn {
+  background: #eee;
+  color: var(--clr_prim);
+  width: max-content;
+  height: 40px;
+  font-size: var(--fs_n);
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* cart body */
+
+.cart_courses{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hcard{
+  content: "";
+  width: 100%;
+  padding: 5px;
+  background: rgba(224, 224, 224, .3);
+  height: 90px;
+  border-bottom: .5px solid #434343;
+  display: inline-flex;
+  gap: 3px;
+}
+
+.hcard_thumb{
+  min-height: 80px;
+}
+
+.hcard_thumb a > img{
+  height: 80px;
+  width: auto;
+}
+
+.hcard_body_desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 77%;
+}
+
+.author{
+  font-size: .8rem;
+}
+
+.remove_link{
+  font-size: .8rem;
+  color: var(--clr_prim);
+}

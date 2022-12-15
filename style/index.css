@@ -18,6 +18,21 @@
   color: var(--yellow);
 }
 
+.main_btn{
+  font-size: var(--fs_n);
+  font-weight: 500;
+  padding:4px 10px;
+  background: var(--clr_prim);
+  width: fit-content;
+  color: #eeeeee;
+  margin: 10px 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
 .col_img{
   width: 100%;
   height: 100%;
@@ -28,6 +43,15 @@
 .category_head{
   display: inline-flex;
   justify-content: space-between;
+}
+
+.category_head a{
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+
+  color: var(--clr_prim);
+  text-transform: capitalize;
 }
 
 

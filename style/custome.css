@@ -138,7 +138,12 @@ section{
 .big_img_frame{
   position: relative;
   width: 100%;
+  max-width: 500px;
   padding: 10px;
+}
+
+.bg_light_gray{
+ background: #eee;
 }
 
 

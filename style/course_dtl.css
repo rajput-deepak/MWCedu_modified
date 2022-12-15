@@ -39,6 +39,128 @@ a.play > img{
   transform: translate(-50%, -50%);
 }
 
+/* course_dtl body */
+
+.course_body{
+  position: relative;
+}
+
+.sec1 > h2, .include_cards{
+  margin-bottom: 10px;
+}
+
+.sec1 > p{
+  margin-bottom: 10px;
+}
+
+dl{
+  margin-left: 10px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+dt{
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.include_cards{
+  display: inline-flex;
+  align-items: center;
+  max-width: 350px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.small_card{
+  content: "";
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #434343;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.small_card > p{
+  font-weight: 600;
+}
+
+.review{
+  margin-bottom: 5px;
+}
+
+/* section 2 */
+
+.sect2{
+  background: #eee;
+  width: 100%;
+  padding: 10px;
+}
+
+.course_buy{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 320px;
+  margin-bottom: 20px;
+
+  position: absolute;
+  right: 0;
+}
+
+.rate > span:nth-child(1){
+  font-size: var(--fs_l);
+  font-weight: 700;
+}
+
+.rate > span:nth-child(2){
+  text-decoration: line-through;
+}
+
+.options_link{
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.options_link > a{
+  font-size: var(--fs_l);
+  color: var(--clr_prim);
+}
+
+.buy.btn{
+  color: #eee;
+  background: #434343;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.more_courses{
+  margin: 20px 0;
+}
+
+.more_courses > h2{
+  margin-bottom: 10px;
+}
+
+.more_courses_sec{
+  display: inline-flex;
+  gap: 10px;
+}
+
 @media screen and (max-width: 720px) {
   .course_dtl_header{
     display: flex;
@@ -48,5 +170,10 @@ a.play > img{
   }
   a.play{
     opacity: 1;
+  }
+
+  .course_buy{
+    position: relative;
+    right: 0;
   }
 }

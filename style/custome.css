@@ -3,7 +3,7 @@
 :root{
   --clr_prim: rgba(4, 128, 164, 1);
   --clr_white: rgba(245, 245, 245, 1);
-  --clr_black: rgba(67, 67, 67, 1) ;
+  --clr_black: rgba(67, 67, 67, 1);
   --clr_dark:rgba(35, 35, 35, 1);
 
   --yellow:rgba(243, 158, 29, 0.7);
@@ -134,7 +134,7 @@ section{
 
 .container{
   max-width: 70rem;
-  margin: 2rem auto;
+  margin: .5rem auto;
   padding:0.625rem;
   display: grid;
   grid-template-columns: 1fr;

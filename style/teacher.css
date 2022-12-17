@@ -72,3 +72,14 @@
   /* align-items: center; */
   justify-content: center;
 }
+
+@media screen and (max-width: 720px) {
+  .team_cards{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .testi_card{
+    grid-template-columns: 1fr;
+  }
+}

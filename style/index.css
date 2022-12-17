@@ -60,16 +60,15 @@
 
 .category_courses{
   content: "";
-  max-width: 1100px;
+  width: 1100px;
   min-height: 100px;
   margin: auto;
 
   display: inline-flex;
   gap: 10px;
 
-  -webkit-overflow-scrolling: touch;
-
 }
+
 
 .card{
   position: relative;

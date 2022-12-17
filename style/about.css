@@ -1,0 +1,65 @@
+.about_img_frame{
+  width: 400px;
+  margin-left: 40px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#goal > .container{
+  display: flex;
+  justify-content: center;
+}
+
+#goal > .container > .text_box{
+  text-align: center;
+  max-width: 800px;
+}
+
+#team{
+  text-align: center;
+}
+
+.team_cards{
+  width: 100%;
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile{
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.profile_img{
+  content: "";
+  height: 100px;
+  width: 100px;
+  border: 2px solid #434343;
+  border-radius: 20px;
+}
+
+.profile_social{
+  display: inline-flex;
+  gap: 10px;
+}
+
+.profile_social > a{
+  color: #434343;
+  font-size: 1.8rem;
+}
+
+.profile_name > span{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.post > p{
+  font-size: .8rem;
+}

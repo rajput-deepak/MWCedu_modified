@@ -1,0 +1,40 @@
+.get_in_touch{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.sub_section{
+  max-width: 400px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* contact form */
+
+#contact_form .col_text{
+  justify-content: left;
+}
+
+#contact_form .col_text{
+  width: 400px;
+}
+
+form#contact{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form#contact input{
+  padding: 10px;
+}
+
+form#contact textarea{
+  padding: 10px;
+}

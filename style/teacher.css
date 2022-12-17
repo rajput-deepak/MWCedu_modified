@@ -7,4 +7,68 @@
   margin: auto;
 }
 
-.works
+.works_card{
+  content: "";
+  height: 270px;
+  width: 250px;
+
+  border: 2px solid #434343;
+  box-shadow: 0 0 10px rgba(67, 67, 67, .8);
+}
+
+.work_img{
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.work_name{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#with_you{
+  text-align: center;
+}
+
+.work_name > span{
+  font-size: var(--fs_l);
+  font-weight: 800;
+}
+
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+}
+
+.testi_card{
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.testi_frame {
+  content: "";
+  height: 220px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.testi_detail{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  text-align: left;
+
+  /* align-items: center; */
+  justify-content: center;
+}

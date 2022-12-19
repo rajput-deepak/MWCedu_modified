@@ -19,10 +19,9 @@
   width: 100%;
   background: #eee;
   
-  height: 80vh;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -43,8 +42,11 @@
   color: var(--clr_prim);
   margin-bottom: 40px;
 }
-
-.sub_cont p{
+.txt_box{
+  width: 80%;
+  text-align: left;
+}
+.sub_cont .txt_box > p{
   font-size: .8rem;
   line-height: 1.5;
   font-weight: 600;

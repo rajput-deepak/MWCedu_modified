@@ -87,10 +87,6 @@
   letter-spacing: .5px;
 
   transition: 200ms ease-in-out;
-  -webkit-transition: 200ms ease-in-out;
-  -moz-transition: 200ms ease-in-out;
-  -ms-transition: 200ms ease-in-out;
-  -o-transition: 200ms ease-in-out;
 }
 .items_list > a:hover{
   opacity: 1;
@@ -102,10 +98,6 @@
   color: var(--clr_black);
 
   transition: 200ms ease-in-out;
-  -webkit-transition: 200ms ease-in-out;
-  -moz-transition: 200ms ease-in-out;
-  -ms-transition: 200ms ease-in-out;
-  -o-transition: 200ms ease-in-out;
 }
 
 .nav_right a > i:hover{
@@ -126,10 +118,6 @@
   /* border: 2px solid var(--clr_black); */
 
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 /* Mobile nav toggle */
@@ -158,43 +146,23 @@
   height: 5px;
   background: var(--clr_prim);
   border-radius: 2.5px;
-  -webkit-border-radius: 2.5px;
-  -moz-border-radius: 2.5px;
-  -ms-border-radius: 2.5px;
-  -o-border-radius: 2.5px;
 
   transition: all 200ms ease-in-out;
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
 }
 
 .mobile_nav_toggle.active > span:nth-child(1){
   transform-origin: 0% 0%;
   transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
 }
 
 .mobile_nav_toggle.active > span:nth-child(2){
   transform-origin: 0% 100%;
   transform: translateY(+10px) rotate(-45deg);
-  -webkit-transform: translateY(+10px) rotate(-45deg);
-  -moz-transform: translateY(+10px) rotate(-45deg);
-  -ms-transform: translateY(+10px) rotate(-45deg);
-  -o-transform: translateY(+10px) rotate(-45deg);
 }
 
 .mobile_nav_toggle.active > span:nth-child(3){
   transform-origin: 0% 100%;
   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
 }
 
 /* =========================== mobile_nav ============================ */
@@ -291,10 +259,6 @@ p.user_name{
 
   /*fix*/
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
 
@@ -337,10 +301,6 @@ p.user_name{
   overflow: hidden;
 
   border-radius: 2.5rem;
-  -webkit-border-radius: 2.5rem;
-  -moz-border-radius: 2.5rem;
-  -ms-border-radius: 2.5rem;
-  -o-border-radius: 2.5rem;
 } */
 
 @media screen and (max-width:720px){

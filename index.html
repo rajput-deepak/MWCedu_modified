@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="style/custome.css">
   <link rel="stylesheet" href="style/nav.css">
   <link rel="stylesheet" href="style/index.css">
-
+  <link rel="stylesheet" href="style/form1.css">
   
 </head>
 <body>
@@ -48,9 +48,18 @@
           <a href="index.html"><img src="static\m edu square.png" alt="MWCedu" srcset=""></a>
         </div>
         <div class="items_list">
-          <a href="http://">Categories</a>
+          <div class="category_drop">
+            <a href="http://" id="category_toggle" class="category_toggle">Categories</a>
+            <category id="drop_down" class="">
+              <a href="#">Coding</a>
+              <a href="#">Web Designing</a>
+              <a href="#">English Learning</a>
+              <a href="#">Skill Development</a>
+            </category>
+          </div>
           <a href="teacher/teacher.html">Start Teaching</a>
           <a href="404.html">Blog</a>
+          
         </div>
       </div>
       
@@ -143,6 +152,56 @@
     
   </div>
 
+  <!-- ===================== forms ===================== -->
+
+  <div id="form_sec" class="form_section">
+    <div class="form_box">
+
+      <div class="form_top">
+        <div class="logo">
+          <img src="/static/m edu square filled.png" alt="" srcset="">
+        </div>
+        <div class="close">
+          <a id="form_close" href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+      </div>
+
+      <h1>Create account</h1>
+
+      <div class="form_container">
+
+        <div class="social_login">
+          <a href="http://"><i class="fa-brands fa-facebook"></i></a>
+          <a href="http://"><i class="fa-brands fa-google"></i></a>
+          <a href="http://"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>or use email for registration</p>
+
+        <form id="login_form" action="#">
+
+          <input type="text" name="name" id="name" placeholder="NAME">
+          <input type="email" name="email" id="email" placeholder="EMAIL">
+          <input type="password" name="password" id="password" placeholder="PASSWORD">
+
+          <div class="accept_policy">
+            <input type="checkbox" name="password" id="password" placeholder="PASSWORD">
+            <p>agree our <a href="#">terms</a> and <a href="#">conditions</a></p>
+          </div>
+          
+          <input type="submit" value="SIGN UP">
+        </form>
+
+      </div>
+
+        
+
+        
+
+        
+        <p>Already have an account? <a href="#">login here</a></p>
+
+    </div>
+  </div>
 
   <!-- ========================= hero section ========================= -->
   <section id="hero">

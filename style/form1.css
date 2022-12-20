@@ -8,7 +8,7 @@
   background: rgba(67, 67, 67, .2);
   z-index: 99;
 
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -32,7 +32,10 @@
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
+  height: 50px;
 }
+
+
 
 .logo{
   width: 100px;
@@ -43,8 +46,16 @@
   color: #434343;
 }
 
-.form_container {
+#form_signup_cont{
+  display: none;
+}
+
+#form_signin_cont{
   display: flex;
+}
+
+.form_container {
+  height: calc(100% - 50px);
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -53,6 +64,7 @@
 
 .form_container form{
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 20px;
   width: 450px;
@@ -66,11 +78,27 @@
 
 .social_login > a{
   font-size: 1.6rem;
+  color: var(--clr_prim);
+  opacity: 6;
 }
 
 .form_container form > input{
   height: 40px;
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #434343;
+  border-radius: 10px;
   
+}
+
+.form_container form > input[type="submit"]{
+  border: none;
+  width: 200px;
+  background: var(--clr_prim);
+  color: #eee;
+  font-weight: 600;
+  cursor: pointer;
+
 }
 
 .accept_policy{

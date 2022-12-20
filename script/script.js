@@ -16,7 +16,7 @@ let category_toggle = document.getElementById("category_toggle");
 let list = document.getElementById("drop_down");
 
 category_toggle.onclick = function(){
-  list.classList.toggle("active")
+  list.classList.toggle("active");
 }
 
 //=================== form
@@ -45,6 +45,10 @@ document.getElementById("signin_here").onclick = function(){
 document.getElementById("signup_here").onclick = function(){
   document.getElementById("form_signup_cont").style.display = "flex";
   document.getElementById("form_signin_cont").style.display = "none";
+}
+
+document.getElementById("teach_register").onclick = function(){
+  form_sec.style.display = "flex";
 }
 
 

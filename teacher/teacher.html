@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="/style/index.css">
   <link rel="stylesheet" href="/style/about.css">
   <link rel="stylesheet" href="/style/teacher.css">
+  <link rel="stylesheet" href="/style/form1.css">
 
   
 </head>
@@ -129,6 +130,75 @@
     
   </div>
 
+  <!-- ===================== forms ===================== -->
+
+  <div id="form_sec" class="form_section">
+    <div class="form_box">
+
+      <div class="form_top">
+        <div class="logo">
+          <img src="/static/m edu square filled.png" alt="" srcset="">
+        </div>
+        <div class="close">
+          <a id="form_close" href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+      </div>
+
+      <div id="form_signup_cont" class="form_container">
+
+        <h1>Create account</h1>
+
+        <form id="login_form" action="#">
+
+          <div class="social_login">
+            <a href="http://"><i class="fa-brands fa-facebook"></i></a>
+            <a href="http://"><i class="fa-brands fa-google"></i></a>
+            <a href="http://"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <p>or use email for registration</p>
+
+          <input type="text" name="name" id="name" placeholder="NAME">
+          <input type="email" name="email" id="email" placeholder="EMAIL">
+          <input type="password" name="password" id="password" placeholder="PASSWORD">
+
+          <div class="accept_policy">
+            <input type="checkbox" name="password" id="password" placeholder="PASSWORD">
+            <p>agree our <a href="#">terms</a> and <a href="#">conditions</a></p>
+          </div>
+          
+          <input type="submit" value="SIGN UP">
+        </form>
+
+        <p>Already have an account? <a id="signin_here" href="#">login here</a></p>
+
+      </div>
+
+      <div id="form_signin_cont" class="form_container">
+
+        <h1>Welcome back :)</h1>
+
+        <form id="login_form" action="#">
+
+          <div class="social_login">
+            <a href="http://"><i class="fa-brands fa-facebook"></i></a>
+            <a href="http://"><i class="fa-brands fa-google"></i></a>
+            <a href="http://"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <p>or use email for registration</p>
+
+          <input type="email" name="email" id="email" placeholder="Email">
+          <input type="password" name="password" id="password" placeholder="Password">
+          
+          <input type="submit" value="Sign In">
+          <a href="#">Forgot Password.</a>
+        </form>
+
+        <p>Don't have an account ? <a id="signup_here" href="#">Signup here</a></p>
+
+      </div>
+
+    </div>
+  </div>
 
   <!-- ========================= hero section ========================= -->
   <section id="hero">
@@ -138,7 +208,7 @@
         <div class="hero_col col_text">
           <h1 class="block">Be a professional trainer</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nesciunt voluptate natus, deserunt molestias animi possimus magnam dolor officia, qui laboriosam necessitatibus tempore earum.</p>
-          <a href="register.html" class="main_btn">Register here</a>
+          <a id="teach_register" href="#" class="main_btn">Register here</a>
         </div>
         <div class="hero_col col_img">
           <div class="big_img_frame">

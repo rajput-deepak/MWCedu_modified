@@ -51,4 +51,16 @@ document.getElementById("teach_register").onclick = function(){
   form_sec.style.display = "flex";
 }
 
+//=================== demo video
+
+function open_demo() {
+  document.getElementById("demo_video").style.display = "block";
+}
+
+function close_demo() {
+  document.getElementById("demo_video").style.display = "none";
+}
+
+
+
 

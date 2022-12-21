@@ -3,6 +3,51 @@
   color: var(--clr_white);
 }
 
+/* ======demo video play */
+
+#demo_video{
+  display: none;
+}
+
+.pre_play{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: fit-content;
+  width: 720px;
+  height: 600px;
+
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+.pre_play > iframe{
+  border: none;
+}
+
+.video_close{
+  position: absolute;
+  top: 10px;
+  right: -60px;
+
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #434343;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 22.5px;
+
+  background: #eee;
+  cursor: pointer;
+}
+
+/* ======================================= */
+
 .course_dtl_header{
   display: inline-flex;
   gap: 20px;

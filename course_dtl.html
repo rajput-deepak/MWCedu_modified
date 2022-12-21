@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="style/nav.css">
   <link rel="stylesheet" href="style/index.css">
   <link rel="stylesheet" href="style/course_dtl.css">
+
+  <!-- =================== js =================== -->
+  <script src="script/script.js"></script>
   
 </head>
 <body>
@@ -128,12 +131,23 @@
   
   <!-- =========================== course_detail_header ================== -->
   <section id="course_header">
+
+    <!-- ====== demo video play box ======= -->
+
+    <div id="demo_video" class="pre_play">
+      <iframe width="720" height="600" src="https://www.youtube.com/embed/JdG1cVFyj5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <div onclick="close_demo()" class="video_close"><i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+
+    <!-- ==================== -->
     <div class="container">
       <div class="course_dtl_header">
         <div class="course_dtl_header">
           <div class="course_thumbnail">
             <img src="static/thumbnails/thumb-5.jpg" alt="course_thumbnail" srcset="">
-            <a class="play" href="http://">
+            <a onclick="open_demo()" class="play" href="#">
               <img src="static/play-button.png" alt="play_demo" srcset="">
             </a>
           </div>

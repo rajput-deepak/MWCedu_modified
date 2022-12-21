@@ -63,9 +63,9 @@
 
   display: inline-flex;
   gap: 10px;
+  justify-content: center;
 
   padding: 10px 0;
-  content: ;
 
   overflow: auto;
 
@@ -168,6 +168,12 @@
   text-align: center;
 
   color: var(--clr_prim);
+}
+
+@media screen and (max-width: 720px) {
+  .category_courses{
+    justify-content: unset;
+  }
 }
 
 /* ============== build better u section =============== */
